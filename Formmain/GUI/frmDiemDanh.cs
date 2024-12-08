@@ -45,7 +45,7 @@ namespace Formmain.GUI
         MCvFont font = new MCvFont(FONT.CV_FONT_HERSHEY_COMPLEX, 0.5d, 0.5d);
         SqlDataAdapter da;
         DataTable tb;
-        public frmDiemDanh(string MaLop, int tag) //text ma lop
+        public frmDiemDanh(string MaLop, int tag) //test ma lop
         {
             InitializeComponent();
             this.MaLop = MaLop;

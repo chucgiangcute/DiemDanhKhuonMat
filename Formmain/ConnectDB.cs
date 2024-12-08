@@ -15,14 +15,14 @@ namespace Formmain
         SqlDataReader sqldr;
         public ConnectDB()
         {
-            SqlConnection con = new SqlConnection("Data Source=MYPC\\SQLEXPRESS;Initial Catalog=CSDLDiemDanh;"
+            SqlConnection con = new SqlConnection("Data Source=CHUCGIANGCUTE\\SQL2022;Initial Catalog=CSDLDiemDanh;"
                                     + "Persist Security Info=True;User ID=diemdanh;Password=123");
 
         }
         public SqlConnection getConnect()
         {
-            return new SqlConnection("Data Source=MYPC\\SQLEXPRESS;Initial Catalog=CSDLDiemDanh;"
-                                    +"Persist Security Info=True;User ID=diemdanh;Password=123");
+            return new SqlConnection("Data Source=CHUCGIANGCUTE\\SQL2022;Initial Catalog=CSDLDiemDanh;"
+                                    + "Persist Security Info=True;User ID=diemdanh;Password=123");
         }
         public DataTable getTable(string sql)
         {

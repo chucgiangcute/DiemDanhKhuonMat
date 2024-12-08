@@ -1022,5 +1022,9 @@ namespace Formmain
             }
         }
 
+        private void thêmMớiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
